@@ -1,0 +1,5 @@
+grafos/
+*.txt
+saidas/
+*.exe
+graph_analyzer
