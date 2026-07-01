@@ -13,6 +13,18 @@ A biblioteca possui implementações eficientes para:
 * **Componentes Conexas:** Mapeamento, contagem e identificação de subgrafos desconexos.
 * **Exportação de Estatísticas:** Geração automática de relatórios textuais de métricas.
 
+## 📊 Dados de Teste (Arquivos de Grafos)
+Por motivos de boas práticas e limitações de tamanho de arquivo no GitHub, a pasta grafos/ contendo as instâncias de teste brutas (ex: grafo_1.txt) não foi incluída neste repositório.
+
+## 🛠️ Como Compilar e Executar
+1. Certifique-se de ter o compilador GCC instalado na sua máquina.
+2. Crie uma pasta chamada saidas/ no diretório raiz para que o programa exporte os resultados: `mkdir -p saidas`
+3. Compile os arquivos de código-fonte:
+`gcc main.c grafo.c -o graph_analyzer`
+4. Execute o programa gerado: `./graph_analyzer`
+   
+Crie uma pasta chamada saidas/ no diretório raiz para que o programa exporte os resultados:
+
 ## 📁 Estrutura do Projeto
 
 ```text
